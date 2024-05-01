@@ -102,8 +102,18 @@ h1 {
 }
 .timeline__date {
 	font-size: 0.833em;
-	line-height: 2.4;
+	line-height: 2;
+	color: black;
+	text-align: justify;
 }
+
+.timeline__date li{
+	font-size: 0.833em;
+	line-height: 2;
+	color: black;
+	text-align: justify;
+}
+
 .timeline__dot {
 	background-color: currentColor;
 	border-radius: 50%;
@@ -163,6 +173,7 @@ h1 {
 .timeline__title {
 	font-size: 1.5em;
 	line-height: 1.333;
+	color: black;
 }
 /* Expanded state */
 .timeline__item-body--expanded {
